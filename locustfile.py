@@ -16,4 +16,4 @@ class QuickstartUser(HttpUser):
 #             time.sleep(1)
 
     def on_start(self):
-        self.client.post("/api-front/users/login", json={"username":"bayduganova", "password":"test_b2b"})
+        self.client.post("/api-front/users/login", json={"username":"", "password":""})
